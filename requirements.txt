@@ -1,0 +1,24 @@
+# RogueByte GeoForensics Intelligence - Python Dependencies
+# Primary investigation engine & standalone desktop application
+
+# Desktop GUI Framework (Qt6)
+PySide6>=6.6.0
+
+# Standalone Executable Packaging
+pyinstaller>=6.3.0
+
+# PDF & Forensic Document Generation
+reportlab>=4.1.0
+
+# Cryptography & Integrity Auditing
+cryptography>=42.0.0
+
+# Geospatial & Network Graph Analysis
+networkx>=3.2
+folium>=0.16.0
+
+# Data Validation & Typing
+pydantic>=2.5.0
+
+# Testing & Quality Assurance
+pytest>=8.0.0

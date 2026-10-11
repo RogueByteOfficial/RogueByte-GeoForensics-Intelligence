@@ -1,0 +1,14 @@
+[
+  {
+    "session_id": "SES-98712",
+    "timestamp_utc": "2026-10-11T14:30:05Z",
+    "account_id": "suspect_user_99@chat",
+    "client_ip": "185.220.101.5",
+    "asn": "AS208294",
+    "isp_org": "HostRoyale VPN Datacenter",
+    "geo_city": "Frankfurt am Main",
+    "geo_country": "DE",
+    "user_agent": "WhatsApp/2.24.12.7 iOS",
+    "vpn_proxy_indicator": true
+  }
+]

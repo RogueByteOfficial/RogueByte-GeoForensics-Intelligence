@@ -1,0 +1,68 @@
+{
+  "case_id": "CASE-2026-ALPHA",
+  "title": "قضية التحقق من موقع اتصال مشبوه عبر تطبيق تواصل وتضارب الـ IP مع الأبراج",
+  "incident_reference_time_utc": "2026-10-11T14:30:00Z",
+  "target_account": "suspect_user_99@chat",
+  "investigator_id": "INV-704",
+  "investigator_role": "كبير خبراء الأدلة الرقمية الجنائية",
+  "legal_authority": "أمر قضائي صادر من النيابة العامة رقم 2026/884",
+  "description": "واقعة مكالمة صوتية تم إجراؤها في توقيت الواقعة، حيث يدعي المتهم تواجده خارج الدولة استناداً لعنوان IP الألماني، بينما تشير سجلات البرج الخلوي وجهاز الهاتف إلى تواجده الفعلي في مدينة الرياض.",
+  "evidence_files": [
+    {
+      "evidence_id": "EV-001",
+      "filename": "cdr_telecom_records.csv",
+      "source_type": "TELECOM_CARRIER_CDR",
+      "acquisition_method": "LEGAL_SUBPOENA",
+      "sha256": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
+    },
+    {
+      "evidence_id": "EV-002",
+      "filename": "device_gps_dump.json",
+      "source_type": "DEVICE_PHYSICAL_EXTRACTION",
+      "acquisition_method": "CELEBRITE_FORENSIC_IMAGE",
+      "sha256": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
+    },
+    {
+      "evidence_id": "EV-003",
+      "filename": "ip_access_logs.json",
+      "source_type": "SERVER_ACCESS_LOG",
+      "acquisition_method": "CLOUD_AUDIT_LOG_EXPORT",
+      "sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "OBS-001",
+      "category": "DEVICE_OBSERVED",
+      "modality": "DIRECT",
+      "timestamp_utc": "2026-10-11T14:30:00Z",
+      "latitude": 24.7136,
+      "longitude": 46.6753,
+      "accuracy_radius_meters": 25.0,
+      "source_evidence_id": "EV-002",
+      "reliability_notes": "تسجيل مستشعر GPS المباشر داخل نظام التشغيل أثناء الاتصال"
+    },
+    {
+      "observation_id": "OBS-002",
+      "category": "CELLULAR_OBSERVATION",
+      "modality": "INFERRED",
+      "timestamp_utc": "2026-10-11T14:30:15Z",
+      "latitude": 24.7150,
+      "longitude": 46.6780,
+      "accuracy_radius_meters": 1800.0,
+      "source_evidence_id": "EV-001",
+      "reliability_notes": "قطاع برج STC الخلوي رقم 40221 (الرياض - العليا)"
+    },
+    {
+      "observation_id": "OBS-003",
+      "category": "IP_NETWORK_ESTIMATE",
+      "modality": "INFERRED",
+      "timestamp_utc": "2026-10-11T14:30:05Z",
+      "latitude": 50.1109,
+      "longitude": 8.6821,
+      "accuracy_radius_meters": 25000.0,
+      "source_evidence_id": "EV-003",
+      "reliability_notes": "عنوان IP: 185.220.101.5 (خادم VPN تجاري في فرانكفورت - لا يثبت الحضور الفيزيائي)"
+    }
+  ]
+}

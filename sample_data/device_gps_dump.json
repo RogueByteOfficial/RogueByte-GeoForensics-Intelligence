@@ -1,0 +1,31 @@
+{
+  "device_model": "iPhone 15 Pro",
+  "os_version": "iOS 18.2",
+  "device_identifier_sha256": "8f3b2a1c9e4d5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a",
+  "location_cache_entries": [
+    {
+      "timestamp_utc": "2026-10-11T14:25:00Z",
+      "latitude": 24.7134,
+      "longitude": 46.6751,
+      "horizontal_accuracy_m": 15.0,
+      "altitude_m": 612.0,
+      "provider": "CORE_LOCATION_GPS"
+    },
+    {
+      "timestamp_utc": "2026-10-11T14:30:00Z",
+      "latitude": 24.7136,
+      "longitude": 46.6753,
+      "horizontal_accuracy_m": 25.0,
+      "altitude_m": 614.0,
+      "provider": "CORE_LOCATION_GPS"
+    },
+    {
+      "timestamp_utc": "2026-10-11T14:35:10Z",
+      "latitude": 24.7138,
+      "longitude": 46.6755,
+      "horizontal_accuracy_m": 20.0,
+      "altitude_m": 613.5,
+      "provider": "CORE_LOCATION_GPS"
+    }
+  ]
+}
