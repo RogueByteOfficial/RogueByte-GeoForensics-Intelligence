@@ -5,6 +5,10 @@
 
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" /> <img src="https://img.shields.io/badge/واجهة-PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="PySide6" /> <img src="https://img.shields.io/badge/قاعدةالبيانات-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" /> <img src="https://img.shields.io/badge/المجال-التحقيقالجنائي-8A2BE2?style=for-the-badge" alt="التحقيق الجنائي" /> <a href="https://ko-fi.com/rogubyte"> <img src="https://img.shields.io/badge/ادعم_المشروع-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="دعم المشروع عبر Ko-fi" /> </a> </p>
 
+----
+![RogueByte-GeoForensics-Intelligence screenshot](screenshot.png)
+
+---
 حلّل الأدلة، اربط الأحداث، واكشف التناقضات — دون التخلي عن النزاهة العلمية.
 
 منصة مكتبية متخصصة في التحليل الجنائي الرقمي والجغرافي والزمني، مصممة لمساعدة جهات إنفاذ القانون والمحققين الجنائيين وخبراء الأدلة الرقمية على تحليل الأدلة المتاحة بصورة منهجية، وإعادة بناء التسلسل الزمني للأحداث، وفحص التناقضات المكانية، وتوثيق النتائج لدعم التحقيقات الرسمية.
